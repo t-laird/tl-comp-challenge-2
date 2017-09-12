@@ -5,9 +5,9 @@ The goal of this project was to create a site that mimics the layout of a static
 
 ### Original Composition:
 
-![Original Composition](images/mycomp.png?raw=true)
+![Original Composition](static-comp-challenge-2.jpg?raw=true)
 
 ### My Composition:
 
-![My Composition](images/static-comp-challenge-2.jpg?raw=true)
+![My Composition](images/images/mycomp.png?raw=true)
 

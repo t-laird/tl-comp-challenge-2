@@ -1,8 +1,9 @@
 body{
 	/*font-family: 'Merriweather', serif;*/
 	font-family: 'Roboto', sans-serif;
-	background-color: #547e7e;
+	/*background-color: #547e7e;*/
 	font-size: 16px;
+	background: linear-gradient(to top, #337995 0%, #165a5a 50%);
 }
 
 header {
@@ -49,6 +50,7 @@ ul{
 	height: 10px;
 	width: 10px;
 	margin-left: 8px;
+	cursor: pointer;
 }
 
 .hover-fill:hover{
@@ -61,10 +63,11 @@ li{
 	color: whitesmoke;
 	margin-right: 30px;
 	margin-left: 10px;
+	cursor: pointer;
 }
 
 li:hover{
-	color: ;
+	color: cadetblue;
 	fill: white;
 }
 
@@ -87,15 +90,15 @@ p.dropdown{
 	align-items: center;
 	margin-bottom: 0px;
 	margin-right: 20px;
+	cursor: pointer;
 }
 
 p.dropdown:hover{
-	color: #FFFFFF;
+	color: cadetblue;
 }
 
 .logo{
 	height: 60px;
-	width: 60px;
 	margin-right: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -113,7 +116,7 @@ h1{
 section.videocontainer{
 	display:flex;
 	flex-wrap: wrap;
-	flex-direction: row;
+	/*flex-direction: row;*/
 	justify-content: space-between;
 	width: 100%;
 }
@@ -128,7 +131,7 @@ section.top{
 }
 
 section.top:hover{
-	opacity:0.9;
+	opacity: unset;
 	cursor: pointer;
 }
 
@@ -283,16 +286,16 @@ p.number{
 		font-size: 15px;
 	}
 	article{
-		width:44vw;
-		height:61.6vw;
+		width:46vw;
+		height:64.4vw;
 	}
 	section.top{
-		width: 44vw;
-		height: 22vw;
+		width: 46vw;
+		height: 23vw;
 	}
 
 	section.bottom{
-		height: 39.1vw;
+		height: 41.4vw;
 	}
 	div.spacer{
 		display: none;
@@ -313,6 +316,8 @@ p.number{
 	body{
 		font-size: 18px;
 	}
+
+
 	article{
 		width:90vw;
 		height:128.8vw;
@@ -323,10 +328,53 @@ p.number{
 		height: 45vw;
 	}
 
+	header{
+		display: flex;
+		align-items: flex-start;
+	}
+
 	section.bottom{
 		height: 83.3vw;
 	}
 	p.dropdown{
 		font-size: 0.80em;
+		margin-top: 15px;
+		margin-bottom: 5vw;	
+	}
+	li{
+		margin-top: 2em;
+	}
+	ul{
+		margin-bottom: 0px;
+	}
+
+	.logo{
+		height: 60px;
+   	 	margin-right: 20px;
+    	margin-top: 70px;
+	}
+}
+
+@media screen and (max-width: 319px){
+	body{
+		font-size:15px;
+	}
+
+
+@media screen and (max-width: 260px){
+	body{
+		font-size:12px;
+	}
+}
+
+@media screen and (max-width: 209px){
+	body{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 180px){
+	body{
+		font-size: 8px;
 	}
 }

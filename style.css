@@ -1,0 +1,332 @@
+body{
+	/*font-family: 'Merriweather', serif;*/
+	font-family: 'Roboto', sans-serif;
+	background-color: #547e7e;
+	font-size: 16px;
+}
+
+header {
+	background-color: #00222e;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+
+ul{
+	display: inline-block;
+	margin-left: 0.625em;
+	padding-left: 0px;
+	margin-bottom: 1.25em;
+	cursor: normal;
+}
+
+.icon{
+	height:15px;
+	width: 15px;
+	margin-right: 8px;
+}
+
+#share:hover{
+	fill: inherit;
+}
+
+#playlists:hover{
+	fill: inherit;
+}
+
+#favorites:hover{
+	fill: inherit;
+}
+
+.sign-in{
+	height: 20px;
+	width: 20px;
+	margin-right: 8px;
+}
+
+.icon-carrot{
+	height: 10px;
+	width: 10px;
+	margin-left: 8px;
+}
+
+.hover-fill:hover{
+	fill: #FFFFFF;
+}
+
+
+li{
+	display: inline;
+	color: whitesmoke;
+	margin-right: 30px;
+	margin-left: 10px;
+}
+
+li:hover{
+	color: ;
+	fill: white;
+}
+
+nav{
+	margin-bottom: 15px;
+}
+
+
+div.dropdown{
+	display:flex;
+	justify-content: flex-end;
+	align-content: center;
+	flex-wrap: wrap;
+	width: 120px;
+}
+p.dropdown{
+	color: #c8e2e2;
+	font-size: 0.9375em;
+	display: flex;
+	align-items: center;
+	margin-bottom: 0px;
+	margin-right: 20px;
+}
+
+p.dropdown:hover{
+	color: #FFFFFF;
+}
+
+.logo{
+	height: 60px;
+	width: 60px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+main{
+	margin-left: 0.9375em;
+	margin-right: 0.9375em;
+}
+
+h1{
+	color: whitesmoke;
+}
+
+section.videocontainer{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+section.top{
+	height: 11.5vw;
+	width: 23vw;
+	background-size: contain;
+	display:flex;
+	justify-content: space-between;
+	opacity: 0.5;
+}
+
+section.top:hover{
+	opacity:0.9;
+	cursor: pointer;
+}
+
+section.top.one{
+	background-image: url("images/Wimbeldon Images/Wimbledon-Grounds.jpg");
+}
+section.top.two{
+	background-image: url("images/Wimbeldon Images/Wimbledon-2017 Winners.jpg");
+}
+section.top.three{
+	background-image: url("images/Wimbeldon Images/Wimbledon-Kids.jpg");
+}
+section.top.four{
+	background-image: url("images/Wimbeldon Images/Wimbledon-Maintenance.jpeg");
+}
+section.top.five{
+	background-image: url("images/Wimbeldon Images/Wimbledon-Matches.jpg");
+}
+section.top.six{
+	background-image: url("images/Wimbeldon Images/Wimbledon-Renovations.jpg");
+}
+section.top.seven{
+	background-image: url("images/Wimbeldon Images/Wimbledon-Shots.jpg");
+}
+section.top.eight{
+	background-image: url("images/Wimbeldon Images/Wimbledon-Strawberries.jpg");
+}
+
+article{
+	display: inline;
+	width: 23vw;
+	height: 32.2vw;
+	background-color: black;
+	margin-bottom: 1.5vw;
+	box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+div.spacer{
+	display: none;
+	height:32.2vw;
+	width: 23vw;
+}
+
+.arrow{
+	height: 3.75em;
+	width: 3.75em;
+	padding: 1.5vw 0 0 1.5vw;
+	opacity: 0.9;
+}
+
+p.views{
+	color:white;
+	font-size:.9375em;
+	margin: 0px;
+	padding: 1.5vw 1.5vw 0 0;
+}
+
+p.viewcount{
+	color:white;
+	font-size:2.1875em;
+	margin: -0.1125em 0px 0px 0px;
+}
+
+section.bottom{
+	height: 20.2vw;
+	background-color: white;
+	padding-left: 10px;
+	padding-top: .5vw;
+}
+
+h3{
+	font-size: 0.95em;
+	color: black;
+	margin: 0.625em 0.625em 0px 0px;
+}
+
+h4{
+	font-size: 0.8125em;
+	color: #9C9C9C;
+	margin: 0 0 1.25em 0;
+}
+
+p.url{
+	background-color: #F0EEF0;
+	margin: 0px 0.625em 1.25em 0px;
+	height: 3em;
+	font-size:0.75em;
+	padding: 3px;
+	word-wrap: break-word;
+}
+
+h5{
+	color: #9C9C9C;
+	font-size: 0.875em;
+	margin: 0px 0px 0.3125em 0px;
+}
+
+p.playlist{
+	font-size: 0.875em;
+	margin: 0px 0px 1.25em 0px;
+}
+
+p.number{
+	color: #4E307D;
+	font-size: 1.75em;
+	margin: -5px 0px 15px 0px;
+}
+
+@media screen and (max-width: 1200px){
+	body{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 985px){
+	body{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 840px){
+	body{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 770px){
+	body{
+		font-size: 12px;
+	}
+	article{
+		width: 31vw;
+		height: 43.4vw;
+	}
+	section.top{
+		width: 31vw;
+		height:15.5vw;
+	}
+
+	section.bottom{
+		height: 27.9vw;
+	}
+	div.spacer{
+		display: inline;
+		width: 31vw;
+		height:43.4vw;
+	}
+}
+
+@media screen and (max-width: 640px){
+	body{
+		font-size: 15px;
+	}
+	article{
+		width:44vw;
+		height:61.6vw;
+	}
+	section.top{
+		width: 44vw;
+		height: 22vw;
+	}
+
+	section.bottom{
+		height: 39.1vw;
+	}
+	div.spacer{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 540px){
+	li{
+		display: block;
+		margin-bottom: .75em;
+	}
+	body{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 460px){
+	body{
+		font-size: 18px;
+	}
+	article{
+		width:90vw;
+		height:128.8vw;
+		margin-bottom: 4vw;
+	}
+	section.top{
+		width: 90vw;
+		height: 45vw;
+	}
+
+	section.bottom{
+		height: 83.3vw;
+	}
+	p.dropdown{
+		font-size: 0.80em;
+	}
+}

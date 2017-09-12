@@ -1,5 +1,13 @@
 # tl-comp-challenge-2
 
-svg sources:
-<div>Icons made by <a href="https://www.flaticon.com/authors/hanan" title="Hanan">Hanan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+## Overview
+The goal of this project was to create a site that mimics the layout of a static comp. Creative decisions were allowed on copy, images, icons and colors. Other aspects of the final goal were meant to replicate the comp to the greatest extent possible. 
+
+### Original Composition:
+
+![Original Composition](images/static-comp-challenge-2.jpg?raw=true)
+
+### My Composition:
+
+![My Composition](images/mycomp.png?raw=true)
 
